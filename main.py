@@ -12,6 +12,6 @@ async def on_ready():
     for guild in bot.guilds:
         print(f"- {guild.name} | ID: {guild.id}")
 
-    await bot.close()  # Encerra após listar
-
+    await bot.close()
+    
 bot.run("SEU_TOKEN_DO_BOT")
